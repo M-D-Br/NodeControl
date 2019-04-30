@@ -13,6 +13,8 @@ Install and set up a new virtual environment.
 
 `virtualenv telegram`
 
+`source telegram/bin/activate`
+
 Now we'll download the necessary Python packages.
 
 `pip install telethon`
