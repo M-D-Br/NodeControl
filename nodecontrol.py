@@ -32,7 +32,7 @@ def sync():
     blocks = rpc_connect.getblockcount()
     peers = rpc_connect.getconnectioncount()
     sync_prog = str(round(rpc_connect.getblockchaininfo()['verificationprogress']*100, 2)) + "%"
-    return f"👥 Peers: {peers}\n\n⏹ Block Height: {blocks}\n\n🔄 Sync Progress: {sync_prog}"
+    return "👥 Peers: {}\n\n⏹ Block Height: {}\n\n🔄 Sync Progress: {}".format(peers, blocks, sync_prog)
    except:
     return "Something went wrong. Check your node is properly connected."
 
