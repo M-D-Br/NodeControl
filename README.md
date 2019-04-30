@@ -30,3 +30,5 @@ You'll want to create a new Telegram account (I'd recommend <a href="https://hus
 Fill in the necessary parameters in _nodecontrol.py_, then run using:
 
 `python3 nodecontrol.py`
+
+(Occasionally, you'll need to enter your number/code sent to it)
