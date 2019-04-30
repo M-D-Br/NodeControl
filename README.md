@@ -17,11 +17,11 @@ Install and set up a new virtual environment.
 
 Now we'll download the necessary Python packages.
 
-`pip install telethon`
+`pip3 install telethon`
 
 `pip install python-bitcoinrpc`
 
-`pip install pyqrcode`
+`pip3 install pyqrcode`
 
 `pip install pypng` 
 
