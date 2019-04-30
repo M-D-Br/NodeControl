@@ -23,7 +23,7 @@ Now we'll download the necessary Python packages.
 
 `pip3 install pyqrcode`
 
-`pip install pypng` 
+`pip3 install pypng` 
 
 You'll want to create a new Telegram account (I'd recommend <a href="https://hushed.com/pricing/">Hushed</a> if you need a disposable number). From there, log in to <a href="https://my.telegram.org/">Telegram core</a>, select 'API development tools'  and pull your _api_id_ and _api_hash_.
 
