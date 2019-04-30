@@ -1,6 +1,8 @@
 # NodeControl
 Telegram bot for generating Bitcoin addresses from full node. This can be run on a separate device, but if you intend to use the lightning invoice generator (coming soon), it will need to be set up on the same device as your node.
 
+__Note:__ Telegram chats aren't encrypted, and anyone that gains access to your account would be able to interact with your client. Use at your own risk.
+
 Fire up your terminal and clone the repo into a directory of your choosing.
 
 `git clone https://github.com/M-D-Br/NodeControl.git`
